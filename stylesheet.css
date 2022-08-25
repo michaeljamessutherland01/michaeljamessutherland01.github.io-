@@ -55,7 +55,7 @@ header a:hover {
 
 }
 
-#graphy {
+#sourdough {
     display:initial;
 }
 }
@@ -87,7 +87,7 @@ header a{
 }
 
 @media screen and (max-width: 350px){
-    #graphy {
+    #sourdough {
         display:none;
     }
 }
