@@ -1,28 +1,40 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet2.css" type="text/css">
+        <script src="script.js"></script>
+        <title>Rock Creek Sourdough</title>
+    </head>
+    <body
+      style="
+        font-family:'Garamond','Times New Roman', Times, serif;
+        color: rgb(100, 100, 100);">
+      <header id="header" 
+        style="
+          font-size: 20px;
+          vertical-align: middle;
+          margin-top:10px;
+          margin-bottom:30px;">
+          <a href="#home" class="home" style="display:inline; font-size:25px; font-family:'Garamond', Times, serif">Rock Creek <span id="graphy" style="font-size: 22px">Sourdough</span></a>
+          <div style="display:inline" onclick="showheader()">
+          <img src=mobileicon.png id="icon">
+        </div>
+        <div id="reveal">
+            <a href="#about">Our Story</a>
+            <div class="dropdown" style="display:inline;">
+            <a href="#data">Menus</a>
+              <div id="dropdowndata">
+                <a href="#">Bread</a>
+                <a href="#">Morning</a>
+                <a href="#">Noon</a>
+                <a href="#">Night</a>
+              </div>
+            </div>
+            <a href="#contact">Contact Us</a>
+          </div>
+      </header>
+    </body>
+  </html>
