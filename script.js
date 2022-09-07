@@ -1,10 +1,12 @@
 function showheader(){
     var x = document.getElementById("reveal");
     if (window.getComputedStyle(x).display === "none") {
-        x.style.display = "initial"
+        x.style.display = "initial";
+        document.getElementById("header").style.height = "300px";
       }
     else {
-        x.style.display = "none" 
+        x.style.display = "none";
+        document.getElementById("header").style.height = "60px";
     }
 }
 
