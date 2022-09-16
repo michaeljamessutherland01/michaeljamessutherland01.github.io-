@@ -20,6 +20,7 @@ window.addEventListener('resize',function(event){
     if (window.innerWidth > 650){
       x.style.display = "none";
       y.style.display = "initial";
+      document.getElementById("header").style.height = "60px";
       }
     })
 
