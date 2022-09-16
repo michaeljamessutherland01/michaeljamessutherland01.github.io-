@@ -1,0 +1,179 @@
+/*****************/
+/****DEFAULT******/
+/*****************/
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(255, 246, 226);
+  background-size: cover;
+  color: rgb(75, 75, 75);
+  margin:0px;
+}
+footer p {
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration:none;
+  font-size:20px;
+  text-decoration:none;
+}
+footer p:hover {
+  color: rgba(0, 183, 255, 1);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+    font-size:18px;
+}
+a:hover {
+  color: rgba(0, 183, 255, 1);
+}
+
+/*****************/
+/***END DEFAULT***/
+/*****************/
+
+/*****************/
+/****HEADER******/
+/*****************/
+#dropdowndata {
+  display: none;
+  position: inline;
+}
+
+header {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+vertical-align: middle;
+margin-top:0px;
+margin-bottom:0px;
+background-color: rgb(70,70,70);
+color:white;
+height:60px;
+}
+
+header a{
+  display: inline;
+  float: none;
+  text-align:left;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+}
+header a:hover {
+  color: rgba(0, 183, 255, 1);
+}
+#icon {
+  display:none;
+  float: right;
+  height:35px;
+  width:35px;
+}
+
+#reveal {
+  display: inline;
+}
+/*****************************/
+/********HEADER HOVER*********/
+
+@media screen and (min-width: 650px){
+.dropdown:hover #dropdowndata{
+  display:block;
+  position: absolute;
+  left: 230px;
+
+}
+
+#sourdough {
+  display:initial;
+}
+}
+/*****************************/
+/****HEADER SCREEN CHANGE*****/
+
+@media screen and (max-width: 650px){
+header a{
+  display: block;
+  float: none;
+  text-align:left;
+}
+
+#reveal {display: none;}
+
+#icon {
+  display: inline;
+  float: right;
+  margin-right:10px;
+
+}
+#dropdowndata {
+  display: block;
+  padding-left: 20px;
+}
+#dropdowndata a{
+  display: block;
+}
+}
+
+@media screen and (max-width: 350px){
+  #sourdough {
+      display:none;
+  }
+}
+
+/********************/
+/****END HEADER******/
+/********************/
+
+/********************/
+/********MAIN********/
+/********************/
+.maindiv{
+  max-height:800px; 
+  position:relative;
+  overflow:hidden;
+}
+/********************/
+/******END MAIN******/
+/********************/
+/********************/
+/********MAIN********/
+/********************/
+#notepage{ 
+    margin:10px;
+    border:10px;
+    align-self: center;
+  }
+  #notepage h3 {
+    font-family: Garamond;
+    color:rgb(75, 75, 75); 
+    font-size:40px;
+   }
+#notepage p {
+   font-family: Garamond;
+   color:rgb(75, 75, 75); 
+   font-size:28px;
+  }
+  #notepage a {
+    font-family: Garamond;
+    color:rgb(0, 119, 255); 
+    font-size:28px;
+    text-decoration: underline;
+   }
+  /********************/
+  /******END MAIN******/
+  /********************/
+/********************/
+/******FOOTER********/
+/********************/
+footer p {
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration:none;
+  font-size:20px;
+  text-decoration:none;
+}
+
+/********************/
+/****END FOOTER******/
+/********************/
